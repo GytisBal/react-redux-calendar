@@ -1,0 +1,22 @@
+.mainLayout {
+  position: relative;
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  background-color: white;
+  vertical-align: middle;
+  border-radius: 15px 15px 0px 0px;
+  -webkit-box-shadow: 1px 3px 21px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 3px 21px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 3px 21px -5px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+
+// Responsive design
+
+@include respond(tab-land) {
+  .mainLayout {
+    width: 100%;
+  }
+}

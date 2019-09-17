@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+
+  &:focus {
+    outline: none;
+}
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  min-height: 100%;
+
+  @include respond(tab-land) {
+    font-size: 56.25%;
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%;
+  }
+}
+
+body {
+  cursor: default;
+  height: 100%;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+  overflow-x: hidden;
+  background-color: $light-grey;
+}

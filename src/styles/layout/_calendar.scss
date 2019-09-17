@@ -1,0 +1,178 @@
+.calendar-box {
+  height: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+  .calendar-navigation-row {
+    position: relative;
+    height: 5rem;
+    width: 100%;
+    border: 1px solid $light-grey;
+    .calendar-navigation-row-icons-container {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      i {
+        font-size: 2.2rem;
+        padding-left: 0.5rem;
+        color: $color-primary;
+        cursor: pointer;
+      }
+    }
+    .calendar-nvaigation-row-year-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+        i {
+          display: inline-block;
+          color: $color-primary;
+          cursor: pointer;
+        }
+      
+    }
+  }
+
+  table {
+    thead {
+      th {
+        width: 15rem;
+        font-size: 1.5rem;
+        color: $color-primary;
+      }
+    }
+    tbody {
+      td {
+        position: relative;
+        height: 12rem;
+        font-size: 2.5rem;
+        cursor: pointer;
+        transition: all ease 0.25s;
+
+       &:hover{
+        color: black;
+        background-color: white;
+        -webkit-box-shadow: 0px 0px 67px 0px rgba(112,112,112,0.50);
+        -moz-box-shadow: 0px 0px 67px 0px rgba(112,112,112,0.50);
+        box-shadow: 0px 0px 67px 0px rgba(112,112,112,0.50);
+        }
+        &:hover .fa-window-close{
+          display: initial;
+        }
+      }
+    }
+  }
+}
+
+.highlight{
+  color: black;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 67px 0px rgba(112,112,112,0.50);
+  -moz-box-shadow: 0px 0px 67px 0px rgba(112,112,112,0.50);
+  box-shadow: 0px 0px 67px 0px rgba(112,112,112,0.50);
+}
+
+.holiday {
+  border: 2px solid red !important;
+  color: red;
+  z-index: 100;
+
+  h2{
+    display: inline;
+    vertical-align: middle;
+    padding-left: 1rem;
+  }
+}
+
+.disabled{
+color: $light-grey;
+}
+
+.task{
+  display: block;
+
+  .fa-window-close{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: $color-primary;
+  }
+  .task-heading{
+    color: $color-primary;
+  }
+  .time{
+    text-indent: 2rem;
+    opacity: 0.3;
+  }
+}
+// Responsive design
+@include respond(tab-laptop) {
+  .calendar-box {
+    table {
+      tbody {
+        td {
+          height: 12rem;
+          font-size: inherit;
+        }
+      }
+    }
+  }
+
+  .task{
+
+    .task-heading{
+      font-size: 1.2rem;
+
+    }
+    .time{
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.event-buttons-container {
+  height: 4rem;
+  width: 15%;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  padding-right: 2rem;
+  z-index: 10;
+  .event-button {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    background-color: $light-grey;
+    color: $color-primary;
+    transition: all ease 0.2s;
+
+    &:hover {
+      color: white;
+      background: linear-gradient(
+                      90deg,
+                      rgba(131, 58, 180, 1) 0%,
+                      rgba(252, 176, 69, 1) 0%,
+                      rgba(253, 29, 29, 1) 100%
+      );
+    }
+  }
+}
+
+// Responsive design
+
+@include respond(tab-land) {
+  .event-buttons-container {
+    width: 20%;
+  }
+
+}
+
+@include respond(tab-port) {
+  .event-buttons-container {
+    width: 20%;
+    padding-right: 0;
+  }
+}
