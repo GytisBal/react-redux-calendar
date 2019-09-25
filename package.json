@@ -2,7 +2,7 @@
   "name": "calendar-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/GytisBal/react-redux-calendar",
+  "homepage": "https://gytisbal.github.io/react-redux-calendar/",
   "dependencies": {
     "add": "^2.0.6",
     "date-fns": "^1.30.1",
