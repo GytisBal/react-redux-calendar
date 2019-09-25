@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/GytisBal/react-redux-calendar/static/css/main.3dc8eea8.chunk.css",
-    "main.js": "/GytisBal/react-redux-calendar/static/js/main.e84fa3fe.chunk.js",
-    "main.js.map": "/GytisBal/react-redux-calendar/static/js/main.e84fa3fe.chunk.js.map",
-    "runtime~main.js": "/GytisBal/react-redux-calendar/static/js/runtime~main.c0f52ed0.js",
-    "runtime~main.js.map": "/GytisBal/react-redux-calendar/static/js/runtime~main.c0f52ed0.js.map",
-    "static/js/2.42a35617.chunk.js": "/GytisBal/react-redux-calendar/static/js/2.42a35617.chunk.js",
-    "static/js/2.42a35617.chunk.js.map": "/GytisBal/react-redux-calendar/static/js/2.42a35617.chunk.js.map",
-    "index.html": "/GytisBal/react-redux-calendar/index.html",
-    "precache-manifest.8de931f0d2692df79607426a0c1a16b2.js": "/GytisBal/react-redux-calendar/precache-manifest.8de931f0d2692df79607426a0c1a16b2.js",
-    "service-worker.js": "/GytisBal/react-redux-calendar/service-worker.js",
-    "static/css/main.3dc8eea8.chunk.css.map": "/GytisBal/react-redux-calendar/static/css/main.3dc8eea8.chunk.css.map"
+    "main.css": "/react-redux-calendar/static/css/main.3dc8eea8.chunk.css",
+    "main.js": "/react-redux-calendar/static/js/main.e84fa3fe.chunk.js",
+    "main.js.map": "/react-redux-calendar/static/js/main.e84fa3fe.chunk.js.map",
+    "runtime~main.js": "/react-redux-calendar/static/js/runtime~main.50c11137.js",
+    "runtime~main.js.map": "/react-redux-calendar/static/js/runtime~main.50c11137.js.map",
+    "static/js/2.42a35617.chunk.js": "/react-redux-calendar/static/js/2.42a35617.chunk.js",
+    "static/js/2.42a35617.chunk.js.map": "/react-redux-calendar/static/js/2.42a35617.chunk.js.map",
+    "index.html": "/react-redux-calendar/index.html",
+    "precache-manifest.2869f817a6e2ad552d0530c3a1d4dc30.js": "/react-redux-calendar/precache-manifest.2869f817a6e2ad552d0530c3a1d4dc30.js",
+    "service-worker.js": "/react-redux-calendar/service-worker.js",
+    "static/css/main.3dc8eea8.chunk.css.map": "/react-redux-calendar/static/css/main.3dc8eea8.chunk.css.map"
   }
 }
