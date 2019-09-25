@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/GytisBal/react-redux-calendar/precache-manifest.8b3436f6f9408c2d851d7ddfe07f1ea2.js"
+  "/GytisBal/react-redux-calendar/precache-manifest.8de931f0d2692df79607426a0c1a16b2.js"
 );
 
 self.addEventListener('message', (event) => {
